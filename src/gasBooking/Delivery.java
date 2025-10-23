@@ -24,13 +24,15 @@ public class Delivery extends Booking{
 
     public void verifyOtp(){
         if(Status.equals("B")){
-            System.out.println("Enter OTP: ");
+            System.out.print("Enter OTP: ");
             customerOtp = new Scanner(System.in).nextInt();
 
             if(customerOtp != otp){
                 Status = "C";
+                System.out.println("cancelled");
             }else {
                 Status = "D";
+                System.out.println("delivered");
             }
         }else {
             System.out.println("No booking found!!!");

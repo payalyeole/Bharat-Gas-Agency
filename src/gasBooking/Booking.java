@@ -17,7 +17,7 @@ public class Booking extends GasConnection{
     }
 
     public void getDates(){
-        System.out.println("Enter Booking date: ");
+        System.out.print("Enter Booking date: ");
         dt = new Scanner(System.in).nextLine();
         dt_1 = null;
 
@@ -30,7 +30,7 @@ public class Booking extends GasConnection{
         }
 
 
-        System.out.println("Enter Delivery Date: ");
+        System.out.print("Enter Delivery Date: ");
         delDate = new Scanner(System.in).nextLine();
         try {
             dt_2 = dateFormat.parse(delDate);

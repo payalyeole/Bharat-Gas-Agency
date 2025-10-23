@@ -132,9 +132,14 @@ public class Main {
         System.out.println("*********************************************");
         Delivery[] deliveryObject = new Delivery[5];
         deliveryObject[0] = new Delivery("Parvati", "Nagpur" , "Nagpur" ,444221, 932211921, 1);
+        deliveryObject[1] = new Delivery("Himani", "Nagpur" , "Nagpur" ,444221, 932211921, 1);
+        deliveryObject[2] = new Delivery("Sarasvti", "Nagpur" , "Nagpur" ,444221, 932211921, 1);
+        deliveryObject[3] = new Delivery("Ekta", "Nagpur" , "Nagpur" ,444221, 932211921, 1);
+        deliveryObject[4] = new Delivery("Ravina", "Nagpur" , "Nagpur" ,444221, 932211921, 1);
 
         for (Delivery delivery : deliveryObject){
             delivery.delPersonDetails();
+            delivery.getDates();
             delivery.getLastdate();
             delivery.validate();
             delivery.amountCalc();
