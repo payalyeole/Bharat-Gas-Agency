@@ -127,6 +127,25 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        System.out.println("hello world!");
+        System.out.println("*********************************************");
+        System.out.println("              Bharat Gas Agency              ");
+        System.out.println("*********************************************");
+        Delivery[] deliveryObject = new Delivery[5];
+        deliveryObject[0] = new Delivery("Parvati", "Nagpur" , "Nagpur" ,444221, 932211921, 1);
+
+        for (Delivery delivery : deliveryObject){
+            delivery.delPersonDetails();
+            delivery.getLastdate();
+            delivery.validate();
+            delivery.amountCalc();
+            delivery.verifyOtp();
+        }
+        System.out.println();
+        cylinderCount(deliveryObject);
+        checkLateDel(deliveryObject);
+        numOfSingleCylinders(deliveryObject);
+        DeliveryDetails(deliveryObject);
+        printReport(deliveryObject);
+        printInvoice(deliveryObject);
     }
 }
