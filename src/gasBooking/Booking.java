@@ -38,7 +38,6 @@ public class Booking extends GasConnection{
             System.out.println("Error Parsing in dt_2"+e);
         }
 
-//        find the difference between two dates
 
         try{
             long difference = dt_2.getTime() - dt_1.getTime();
