@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class Booking extends GasConnection{
     public double otp = 5678, amount = 825, refund=0;
     public String dt,delDate, Status, DelMobileNo = "7890112344";
-    Date dt_1;
+    public Date dt_1;
     public Date dt_2;
 
     public Booking(String name, String street, String area, int pincode, int mobile, int numberOfCylinders) {
