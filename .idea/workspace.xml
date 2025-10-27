@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db06e87-ca37-4afc-88c4-f377ef5cbddb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Output/output1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/output2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/output3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/output4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/output5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/output6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customers/GasConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customers/GasConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gasBooking/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gasBooking/Delivery.java" afterDir="false" />
-    </list>
+    <list default="true" id="3db06e87-ca37-4afc-88c4-f377ef5cbddb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
