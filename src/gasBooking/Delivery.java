@@ -29,10 +29,10 @@ public class Delivery extends Booking{
 
             if(customerOtp != otp){
                 Status = "C";
-                System.out.println("cancelled");
+//                System.out.println("cancelled");
             }else {
                 Status = "D";
-                System.out.println("delivered");
+//                System.out.println("delivered");
             }
         }else {
             System.out.println("No booking found!!!");
@@ -40,7 +40,7 @@ public class Delivery extends Booking{
     }
 
     public void delPersonDetails(){
-        System.out.println("\n Enter the delivery person name : ");
+        System.out.print("\n Enter the delivery person name: ");
         delPersonName = new Scanner(System.in).nextLine();
     }
 }

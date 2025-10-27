@@ -20,7 +20,7 @@ public class GasConnection extends Customer{
     }
 
     public void getLastdate(){
-        System.out.println("Enter the last Date ");
+        System.out.print("Enter the last Date: ");
         date = new Scanner(System.in).nextLine();
         try{
             lastDate = dateFormat.parse(date);
