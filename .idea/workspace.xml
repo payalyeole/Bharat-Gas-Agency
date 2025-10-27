@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db06e87-ca37-4afc-88c4-f377ef5cbddb" name="Changes" comment="" />
+    <list default="true" id="3db06e87-ca37-4afc-88c4-f377ef5cbddb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Output/output1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/output2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/output3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/output4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/output5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/output6.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +61,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Backend Project\BharatGasAgency\BharatGasAgency\Output" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Backend Project\BharatGasAgency\BharatGasAgency\Output" />
     </key>
   </component>
